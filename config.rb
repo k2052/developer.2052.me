@@ -1,7 +1,7 @@
 
 require 'slim'
 compass_config do |config|
-  config.output_style = :compact
+  config.output_style = :compressed
 end
 set :css_dir, 'css'
 set :js_dir, 'js'
