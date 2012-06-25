@@ -5,6 +5,18 @@ html lang="en"
     link rel="icon" type="image/png" href="/images/favicon.png" 
     title iD0 Dev Stuff 
     == stylesheet_link_tag :all     
+    | <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32918486-1']);
+        _gaq.push(['_setDomainName', 'idodevstuff.me']);
+        _gaq.push(['_trackPageview']);
+  
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
   body.main    
     #header.container 
       .row
