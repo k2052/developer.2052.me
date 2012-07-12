@@ -1,0 +1,1 @@
+Random notes I write. The brainstorming before the app takes shape.

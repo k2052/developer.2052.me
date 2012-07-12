@@ -1,0 +1,1 @@
+Revise intro to include links to projects/repos under core langs & stacks. Need to finish PSD Parser & Lua Bindings.
