@@ -1,7 +1,7 @@
 #= require 'prism/prism'
 #= require 'prism/plugins/autolinker/prism-autolinker'
 #= require 'prism-markdown'
-#= require 'jquery/dist/jquery'
+#= require 'jquery/dist/jquery.js'
 
 addLineNumbers = ->
   # works only for <code> wrapped inside <pre data-line-numbers> (not inline)
