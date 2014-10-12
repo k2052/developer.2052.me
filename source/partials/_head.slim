@@ -1,0 +1,15 @@
+title== data['site'].title
+
+meta content=data['site']['og_image']        property='og:image'
+meta content=data['site']['og_image_width']  property='og:image:width'
+meta content=data['site']['og_image_height'] property='og:image:height'
+
+meta content==data['site'].title        property='og:title' 
+meta content==data['site'].description  property='og:description'
+
+meta content='summary'            property='twitter:card'
+meta content=data['site'].twitter property='twitter:site'
+
+== partial "partials/ga"
+link href='http://fonts.googleapis.com/css?family=Lato:400,300,100,700,400italic,300italic,900' rel='stylesheet' type='text/css'
+== stylesheet_link_tag 'app.css'

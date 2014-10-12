@@ -1,0 +1,58 @@
+.window
+  background: #eee8ea
+  border-radius: 3px
+  width: 98%
+  margin: 0 auto 0
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2)
+  padding: 0
+  margin-bottom: 0px
+  font-size: rem(16px)
+  font-family: Inconsolata
+  
+  .title-bar
+    @include background-image(linear-gradient(#f8f8f8, #d3d3d3))
+    @include border-top-radius(.25em)
+    padding: .5em .5em 0 .5em
+    border: .0625em solid #b2b2b2 
+    position: relative
+    text-align: center
+    font-size: rem(12px)
+    height: 35px
+    color: #333
+    text-shadow: .0625em .0625em .0625em #fff
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    font-weight: normal
+    text-overflow: ellipsis
+    white-space: nowrap
+    overflow: hidden
+    
+  .control
+    float: left
+    top: 2px
+    position: relative
+    margin-left: 8px
+
+    ul
+      padding: 0
+      margin: 0
+
+      li
+        cursor: pointer
+        border-radius: 100%
+        height: 10px
+        width: 10px
+        background: #f25156
+        display: inline-block
+        margin-right: 3px
+        padding: 0
+
+        &:nth-of-type(2)
+          background: #ffc109
+
+        &:nth-of-type(3)
+          background: #0ed439
+
+@media (max-width: 800px)
+  
+  .window .title-bar
+    font-size: rem(10px)

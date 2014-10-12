@@ -1,0 +1,109 @@
+/**
+ * Prism.js theme based on the Tommorrow theme by Rose Pritchard
+ */
+
+code[class*="language-"], pre[class*="language-"]
+  color: hsla(0, 0%, 80%, 1)
+  direction: ltr
+  text-align: left
+
+  line-height: 27px
+
+pre[class*="language-"]
+  padding: 0.6em 1em 0.6em 1em
+
+/* Code blocks */
+pre.line-numbers[class*="language-"]
+  padding: 0.6em 4em 1.7em 4em
+  margin: 0
+
+\:not(pre) > code[class*="language-"], pre[class*="language-"]
+  color: $code-color
+
+/* Inline code */
+\:not(pre) > code[class*="language-"]
+  padding: .2em
+  border-radus: .3em
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata
+  color: #999
+
+.token.punctuation 
+  color: #ccc
+
+.token.tag,
+.token.attr-name,
+.token.namespace 
+  color: #e2777a
+
+.token.function-name 
+  color: #6196cc
+
+.token.boolean,
+.token.number,
+.token.function,
+.token.bullet
+  color: #f08d49
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol,
+.token.em
+  color: #f8c555
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin, 
+.token.header
+  color: #cc99cd
+
+.token.string,
+.token.attr-value,
+.token.regex,
+.token.variable
+  color: #7ec699
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.link,
+.token.md-link,
+code a
+  color: #67cdcc
+
+.token.important 
+  font-weight: bold
+
+.token.entity 
+  cursor: help
+
+.line-numbers .line-numbers-rows
+  top: -0.9em
+  left: -4em
+  overflow-y: hidden
+  line-height: 27px
+  background: hsl(216, 11%, 18%)
+  border-right: none
+
+  \:first-child
+    padding-top: 0.6em
+
+  \:last-child
+    padding-bottom: 1em
+
+.line-numbers-rows
+  padding-bottom: 2px
+
+code a
+  font-family: $monospace-font-family !important
+  font-size: $monospace-font-size !important
+  text-decoration: underline
+  line-height: 27px
+  font-weight: normal

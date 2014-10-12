@@ -1,0 +1,98 @@
+// *************************************
+//
+//   Base
+//   -> level tags (body, p, etc.)
+//
+// *************************************
+html 
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+html
+  font-size: $font-size
+  font-weight: $font-weight
+  line-height: $line-height
+  font-family: $font-family
+  color: $color
+  white-space: $white-space
+  background-color: $background-color
+  @include background($background-image)
+  background-repeat: no-repeat
+  
+body
+  font-size: 100%
+  
+p
+  margin: 26px 0
+
+a
+  font-family: $a-font-family
+  color: $a-color
+  text-decoration: none
+  transition: all 0.2s ease-in-out 0s
+  font-weight: $a-font-weight
+  outline: 0
+  &:hover,
+  &:focus
+    color: $a-hover-color
+    text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+  color: $heading-color
+  font-weight: $heading-font-weight
+  text-transform: uppercase
+  line-height: 1.2
+  font-family: $heading-font-family
+
+h1
+  color: $h1-color
+  text-align: center
+  font-size: rem(60px)
+  font-weight: 900
+
+h2 
+  font-size: rem(30px)
+  font-weight: 700
+
+h3
+  font-size: rem(24px)
+
+h4
+  font-size: rem(22px)
+
+h5
+  font-size: rem(18px)
+
+h6
+  font-size: rem(14px)
+
+hr 
+  height: $hr-height
+  background: $hr-background
+  border: $hr-border
+
+blockquote 
+  border-left: 5px solid $blockquote-border-color
+  margin-left: 0
+  padding: 1px 0 1px 1em
+
+blockquote p 
+  font-family: $monospace-font-family
+  font-size: rem($blockquote-font-size)
+  color: $blockquote-color
+  margin: 10px 0 0
+  white-space: pre-wrap
+
+pre, code
+  font-family: $monospace-font-family
+  font-size: $monospace-font-size
+  overflow: auto
+  line-height: 1.8
+
+b, strong
+  font-weight: 400
+
+em 
+  font-style: italic
