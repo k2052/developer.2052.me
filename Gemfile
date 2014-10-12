@@ -15,4 +15,3 @@ gem 'slim'
 
 ## Assets
 gem 'sprockets-sass', '1.2.0'
-gem 'zurb-foundation', require: 'zurb-foundation'
