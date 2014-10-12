@@ -1,7 +1,18 @@
-source :rubygems
+source 'https://rubygems.org'
+ruby '2.1.1'
 
-gem 'middleman', git: 'https://github.com/middleman/middleman.git'
-gem 'middleman-sprockets', git: 'https://github.com/middleman/middleman-sprockets.git'
-gem "slim"
-gem "redcarpet"
+# Server
+gem "puma"
+
+# For serving up builds
 gem "rack-contrib"
+
+# Core
+gem "middleman", "~> 3.3.6"
+
+## Rendering
+gem 'slim'
+
+## Assets
+gem 'sprockets-sass', '1.2.0'
+gem 'zurb-foundation', require: 'zurb-foundation'

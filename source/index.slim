@@ -1,0 +1,27 @@
+.window
+  .title-bar 
+    .control
+      ul
+        li.close
+        li.min
+        li.fullscreen
+    span ~/Dropbox/creations/idodevstuff.me/source/pages/about.md (idodevstuff.me) - Awesome Text (CHEAP VERSION)
+
+  .editor-panes
+    .sidebar
+      == partial "partials/contactdetails"
+      == partial "partials/availability"
+    .main-pane
+      .tab-bar
+        ul.tabs
+          li.tab about.md
+      .editor
+        .content
+          pre.line-numbers
+            code.language-markdown== File.open(File.dirname(__FILE__) + "/partials/about.md") {|io| io.read}
+      .status-bar
+        ul.right
+          li.feedback
+            a href="mailto:k@2052.me" 
+              span.icon-mail
+              span feedback
