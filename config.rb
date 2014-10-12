@@ -25,8 +25,6 @@ sprockets.append_path File.join "#{root}", "source/assets/css"
 sprockets.append_path File.join "#{root}", "bower_components"
 sprockets.append_path File.join "#{root}", "vendor/assets"
 
-puts File.join "#{root}", "bower_components"
-
 # Views direcgtores
 set :layout_dir, "layouts"
 
