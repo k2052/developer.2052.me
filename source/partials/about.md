@@ -8,7 +8,7 @@ I have written [my own CS framework](http://github.com/Ryggrad) and a [book](htt
 I'm a polyglot and my [Github](http://github.com/k2052) is more varied than analogies.
 I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun. 
 I know when abstraction is overkill and when it makes everything magical. 
-I have dabbled in everything from Haskell to ClojureScript. 
+I have dabbled in everything from PHP to ClojureScript. 
 Chances are if I'm not good at it now I could get good at it.
 
 ## Core Skills
