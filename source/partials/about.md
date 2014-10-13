@@ -18,7 +18,7 @@ Chances are if I'm not good at it now I could get good at it.
 I can kick butt with a minimal framework. Sinatra, Padrino, Scorched, Grape -- 
 you name it, I can code diamonds with it.
 My [Github](http://github.com/k2052) is full of more padrino examples than I can count. 
-I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible]). 
+I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible). 
 I can code an API as fast as a speeding Grape, which is [one week](http://backendInaWeek.idodevstuff.me) if you were curious.
 My preferred stack? API first built with Grape, a Sinatra app (for pre-loading data) on top of that,
 and then finally a frontend built using Ryggrad (sorta like Backbone.js but better).
@@ -36,8 +36,7 @@ A developer in any age requires a working knowledge of C. Its syntax influences
 countless languages. If you are fluent in C chances are you can pick up most
 languages. I don't do a lot of pure C coding, but building bindings, modifying
 GTK apps or fixing a bug in a library are common almost daily occurrences. Code
-as  long as I have and you start to  get good at C even if it isn't your GOTO
-language.
+as long as I have and you start to  get good at C even if it isn't your GOTO language.
 
 ### LISP
 
@@ -49,7 +48,7 @@ language.
 (they change how you think about programming. And these days with platforms like
 (Clojure and ClojureScript they are useful in practice to.
 
-## Things I could pick up again if I need to
+## Things I can pick up again if I need to
 
 ### Node.js
 
@@ -111,8 +110,8 @@ is pretty cool until you have to debug it for 8 hours in Firebug.
 In the end, PHP teaches you MVC, exposes you to classes and how good things
 could be. And it really isn't so bad as long as you don't break everything which
 is easy to do in a language where every function was named random_ly. I never
-learned what came first the haystack or the needle -I'm not sure if anyone
-really knows.
+learned what came first the haystack or the needle -- and I'm not sure if anyone
+ever really knew.
 
 ### I broke MVC
 
@@ -139,7 +138,7 @@ Wisconsin.
 ### I broke deadlines
 
 Because honestly, communication is hard when honestly you just want to sleep and
-you didn't realize that committing to "ASAP" meant 3 am nights and 7pm Skype
+you didn't realize that committing to "ASAP" meant 3am nights and 7pm Skype
 calls over 2 lines of changes to CSS that really doesn't matter when the site is
 exploding to live users. I learned to love semantic versioning, production branches,
 milestones and Basecamps.
@@ -148,7 +147,7 @@ milestones and Basecamps.
 
 I knew at the time that I didn't really know JS, but JS seems simple when you
 have a 190k library that can do everything in a DOM ready event. You think,
-maybe I could everything in a DOM ready event. And for awhile I did. 
+maybe I could everything in a DOM ready event and for awhile I did. 
 
 Let's load everything in AJAX because we can. Now all the urls are broken and no
 one can change anything because everything is 9k lines wrapped in a DOM ready
@@ -186,8 +185,8 @@ screen. You will wield characters into code like poets wield words.
 Then you realize coding is less about how fast you type and more about what you
 type. Because most days are spent copy and pasting and learning a library that
 will save you a million lines and thinking _maybe this WILL not turn out to be a
-waste of time_ and discovering it was a typo all along. Then all those saved
-keystrokes didn't matter much.
+waste of time_ and discovering it was a typo all along. All those saved
+keystrokes don't matter much.
 
 But maybe if your environment was more powerful it would change everything. If
 you could type M-x butterfly and unleash the tsunami of creativity that comes with a
@@ -196,15 +195,15 @@ you'd code perfectly.
 
 You are spending more and more time modifying your editor; building
 extensions, plugins and themes, and getting the sidebar just right. It is
-easy to forget about your code when you editor is so amazing.
+easy to forget about your code when your editor is so amazing.
 
-You learn that the environment isn't that big of deal and if a bunch of people
+You learn that the environment isn't that big of a deal and if a bunch of people
 use it perhaps it is okay. 
 
 These days you could be productive in Notepad if it came to that. Except for
 Eclipse, no one can be productive in that but that is because Eclipse is a
 wizard that pretended to be an editor but was really just a dialog all along.
-But those dialogs have a text area and if you give me a text area, I'll
+But those dialogs have a textarea and if you give me a textarea, I'll
 code mountains invisible.
 
 ### I broke LISP
@@ -215,16 +214,16 @@ then, well, everything changes...
 
 At first, LISP seems like bullshit, it is full of parenthesis and it feels like
 going backwards; you think: _why we are at it why don't we add back semicolons
-and brackets and hey we could explicitly declare our vars with a keyword to_. I
+and brackets and hey we could explicitly declare our vars with a keyword to. I
 traded unnecessary characters for significant whitespace a long time ago, move
 on LISPers, there are modern languages out here now. You can get all the power
-of LISP without parenthesis, so why bother with such an ugliness.
+of LISP without parenthesis so why bother with such ugliness if you don't have to
 
-I cant remember if one day I just got bored or if I built a
-parser but for some reason or another I ended up playing with LISP. See, you
-don't realize what you can do with LISP until you know what it is. When you code
-with LISP it is like building a language for your data. You code starts to speak
-to you and gradually it shows you its whole world. 
+I cant remember if one day I just got bored or if I built an AST but for some
+reason or another I ended up playing with LISP. See, you don't realize what you
+can do with LISP until you know what it is. When you code with LISP it is like
+building a language for your data. You code starts to speak to you and gradually
+it shows you its whole world.
 
 Coding in LISP is a deeper connection to your code. It is abstraction but it
 doesn't feel like abstraction it feels like another language, like you are
@@ -246,7 +245,7 @@ But I still cant help but wonder, does God think in parenthesis?
 
 Promises are wonderful. They allow you to connect everything together without
 worrying whether or not the data will come through for you. It will eventually
-show up, not like my Dad who never came back.
+show up not like my dad who never came back.
 
 No longer do you have to wait for things to happen, well, you have to wait, but
 your code knows how to wait, and it gets alerted to magical, wonderful things.
@@ -255,8 +254,8 @@ the old way of doing things. You start giving all your code promises.
 
 Promises open up a whole knew world to you but it is a whole new world you can
 quickly destroy. Because when you have 18 models and 40 views and all those
-views are listening for changes and soon you got more lines of code listening
-for other code  than you have code. So you start to wonder, maybe promises
+views are listening for changes; you quickly have more lines of code listening
+for other code than you have code. You start to wonder, maybe promises
 aren't such a good idea after all. Maybe you just replaced callback hell with
 another level of hell; one full of broken promises.
 
@@ -274,30 +273,30 @@ At first, it is great and everything works smoothly, and you are thinking your
 apps have never been so abstracted. It is making everything so simple, so, why
 not throw on another layer of abstraction or two. 
 
-Before long you are compiling
-your favorite language to JS and that JS runs on a framework that renders to
-well anything, it might be canvas or WebGl or CSS, HTML and SVG because you tell
-yourself, "this makes everything so much more flexible". And the whole time all
-these abstractions get you thinking, what if the web wasn't the only platform
-and wouldn't it be easy it to swap out this layer with that layer and then go to
-every device. 
+Before long you are compiling your favorite language to JS and that JS runs on a
+framework that renders to well anything, it might be canvas or WebGl or CSS,
+HTML and SVG. You tell yourself that this is wonderful. That "this makes
+everything so much more flexible". 
 
-It is so tempting to to push everywhere and before you know it you got your app
+All these abstractions get you thinking, what if the web wasn't the only
+platform and wouldn't it be easy it to swap out this layer with that layer and
+then go to every device.
+
+It is so tempting to push everywhere. Before you know it, you have got your app
 on 500 devices and a dozen different OSes. You have got a phone that compares to
 your 2006 MacBook and you have got it rendering so many pixels and translating
 so many things that your app might as well be Photoshop running on a 2006
-MacBook. Because all those layers add up and eventually you push so far beyond
-what 2006 was meant to do.
+MacBook. Because all those layers add up and 2006 was never meant to do all this.
 
 See, the web wasn't meant to deliver all of this. The web was meant for text,
 boobs and the occasional overcomplicated cat gif. This is mobile apps done by
 Rube Goldberg. This is native completely broken by abstractions, by
 oversimplified patterns, by you.
 
-You learn that maybe native isn't such a bad idea and sharing code between two
-different platforms is like trying to share between two languages by using
-another language. No one likes to read science books in Latin and no one wants a
-mobile app written for the web.
+You learn that maybe native isn't such a bad idea and that sharing code between
+two different platforms is like trying to share writing between two languages by
+using another language. No one likes to read science books in Latin and no one
+wants a mobile app written for the web.
 
 It is so tempting to misuse a technology. To dive head first into new territory
 shouting "I got this! React.js is gonna change everything!". Because it is so
