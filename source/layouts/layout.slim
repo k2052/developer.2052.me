@@ -1,10 +1,10 @@
 doctype 5
 html lang="en" 
   head           
-    meta charset="UTF-8"   
-	  == partial 'partials/head'
+    | <meta charset="UTF-8" />
+    == partial 'partials/head'
   body
     == partial 'partials/header'
     #container
       == yield
-	  == javascript_include_tag 'app'
+    == javascript_include_tag 'app'
