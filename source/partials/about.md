@@ -5,7 +5,7 @@ I like minimal frameworks and I'm really good at [building APIs](http://backendI
 I have written [tutorials](http://words.k2052.me/2014/10/08/building-apis-
 with-grape-part1) on building APIs with Grape. 
 I have written [my own CS framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) on building them. 
-I'm a polyglot and my [Github](http://github.com/k2052) is more varied than analogies.
+I'm a polyglot and my [Github](http://github.com/k2052) is more diverse than analogies.
 I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun. 
 I know when abstraction is overkill and when it makes everything magical. 
 I have dabbled in everything from PHP to ClojureScript. 
