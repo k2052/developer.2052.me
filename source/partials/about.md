@@ -37,7 +37,7 @@ A developer in any age requires a working knowledge of C. Its syntax influences
 countless languages. If you are fluent in C chances are you can pick up most
 languages. I don't do a lot of pure C coding, but building bindings, modifying
 GTK apps or fixing a bug in a library are common almost daily occurrences. Code
-as long as I have and you start to  get good at C even if it isn't your GOTO language.
+as long as I have and you start to get good at C even if it isn't your GOTO language.
 
 ### LISP
 
