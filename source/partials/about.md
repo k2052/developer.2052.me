@@ -327,4 +327,4 @@ codebase in the world. Because I have to know how it works even if I break it in
 the process. If you don't ask stupid questions you'll never be able to give
 smart answers. I have to break things.
 
-I'm still breaking things. Maybe I could break your code? [k@2052](mailto:k@2052.me)
+I'm still breaking things. Maybe I could break your code? [k@2052.me](mailto:k@2052.me)

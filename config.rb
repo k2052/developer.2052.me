@@ -8,6 +8,9 @@ set :slim, :pretty => true
 # Enable pretty URLS
 activate :directory_indexes
 
+# Bust caches
+activate :cache_buster
+
 # Set Build Dir
 set :build_dir, "tmp"
 
