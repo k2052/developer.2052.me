@@ -178,7 +178,7 @@ isn't better.
 
 ### I broke my text editor
 
-It seems like magic the first time you see vi keystrokes. You imagine that text
+It seems like magic the first time you see vim keystrokes. You imagine that text
 will become your medium and you'll become one with the characters on your
 screen. You will wield characters into code like poets wield words.
 
