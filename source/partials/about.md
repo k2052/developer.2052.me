@@ -27,7 +27,7 @@ and then finally a frontend built using Ryggrad (sorta like Backbone.js but bett
 
 I'm really really good at Backbone.js and their ilk; I know them so well I could build them myself.  
 I have written [my own framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building it.
-I'm not stuck in the Backbone.js mindset and I spend a lot of time playing with ClojureScript and OM. 
+I'm not stuck in the Backbone.js mindset and I spend a lot of time playing with ClojureScript and Om. 
 My dream is to build a design app that merges the web workflow with vector/raster drawing tools. 
 It is called [Sqircle](https://github.com/sqircle)
 
