@@ -25,10 +25,11 @@ and then finally a frontend built using Ryggrad (sorta like Backbone.js but bett
 
 ### CoffeeScript/JS
 
-I'm really really good at Backbone.js and their ilk, I know them so well I could build them myself.  
-I have written [my own framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building them. 
+I'm really really good at Backbone.js and their ilk; I know them so well I could build them myself.  
+I have written [my own framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building it.
 I'm not stuck in the Backbone.js mindset and I spend a lot of time playing with ClojureScript and OM. 
-My dream is to build a design app that merges the web workflow (CSS/HTML) with vector/raster drawing tools. It is called [Sqircle](https://github.com/sqircle)
+My dream is to build a design app that merges the web workflow with vector/raster drawing tools. 
+It is called [Sqircle](https://github.com/sqircle)
 
 ### C
 
@@ -41,12 +42,12 @@ as long as I have and you start to  get good at C even if it isn't your GOTO lan
 ### LISP
 
 (I can think in parenthesis) If you know only one paradigm your code will be
-(defined by that paradigm. For years, I have been expanding my mind by playing
-(with various incarnations of LISP and Scheme. My daily editor for a long time
-(was Emacs and more recently it has been Light Table. Coding with a LISP powered
-(editor is like coding with super powers. LISPs are magical and wonderful and
-(they change how you think about programming. And these days with platforms like
-(Clojure and ClojureScript they are useful in practice to.
+(defined by that paradigm. For years, I have been expanding my mind by playing)
+(with various incarnations of LISP and Scheme. My daily editor for a long time)
+(was Emacs and more recently it has been Light Table.) 
+(Coding with a LISP powered editor is like coding with super powers.)
+(LISPs are magical and wonderful and they change how you think about programming.)
+(And these days with platforms like Clojure and ClojureScript they are useful in practice to.)
 
 ## Things I can pick up again if I need to
 
@@ -60,7 +61,7 @@ Node.js stack and be [MEAN](http://en.wikipedia.org/wiki/MEAN) to all the code.
 ### PHP
 
 For me, the web started with PHP. With Joomla themes, WordPress blogs and
-haphazardly throw together bespoke MVC apps because CodeIgniter seemed awesome
+haphazardly thrown together bespoke MVC apps because CodeIgniter seemed awesome
 but too complicated to give to a client. Before long my skills and work
 stretched across a gauntlet of PHP stuff. If you used a Joomla theme in the 1.5
 era chances are you used one with my code at some point. I haven't done any
@@ -71,14 +72,13 @@ for the right project.
 
 ActionScript was one of the first languages I learned. In days past Flash was
 the only option for building annoying UIs. So like any aspiring web designer
-that wanted to be 2Advanced, I sought to build the most  flashy site around. I
+that wanted to be 2Advanced, I sought to build the most flashy site around. I
 learned AS like the back of my hand and got proficient at building all sorts of
 horrible horrible things. Things like preloaders so big they needed their own
-preloaders, intros so long (you couldn't skip)  they needed two cups of coffee,
-and games that would make the developers behind E.T The Game feel less alone.
-From time to time I keep my skills up to date by playing with HaXe, which
-despite all its faults is a pretty decent platform for building cross-platform
-games.
+preloaders, intros so long they needed two cups of coffee, and games that would
+make the developers behind E.T The Game feel less alone. From time to time I
+keep my skills up to date by playing with HaXe, which despite all its faults is
+a pretty decent platform for building cross-platform games.
 
 ## Things I have learned but rarely use
 
@@ -99,13 +99,13 @@ games.
 
 ## History
 
-The time I learned to code I broke everything. Because PHP is easy to misuse.
-But it was the thing at the time and I have lost count of how many times I have
-used "the thing" at the time. PHP isn't so bad... what am I saying it is. Joomla
+The time I learned to code I broke everything. Because PHP is easy to misuse but
+it was the thing at the time and I have lost count of how many times I have used
+"the thing at the time". PHP isn't so bad... what am I saying, it is bad. CMS
 themes can be beautiful and wonderful and magical and push you so far... maybe
 in the wrong direction -- but you learn a lot when everything is breaking and
 you just want the sidebar to float left and not break your post's title and CSS
-is pretty cool until you have to debug it for 8 hours in Firebug. 
+is pretty cool until you have to debug it for 8 hours in Firebug.
 
 In the end, PHP teaches you MVC, exposes you to classes and how good things
 could be. And it really isn't so bad as long as you don't break everything which
@@ -113,11 +113,12 @@ is easy to do in a language where every function was named random_ly. I never
 learned what came first the haystack or the needle -- and I'm not sure if anyone
 ever really knew.
 
-### I broke MVC
+### I broke themes
 
-I learned that there is a time and place for patterns. A theme
-framework probably isn't the place for a factory pattern, a singleton pattern,
-and definitely not for overriding. Just because you can doesn't mean you should.
+I learned that there is a time and place for patterns. A theme framework
+probably isn't the place for MVC, a factory pattern, a singleton pattern, and
+definitely not for overriding core classes. Just because you can doesn't mean
+you should.
 
 ### I broke my client's site.
 
@@ -155,8 +156,7 @@ event.
 
 Is this what JS is? Because I think JS is hell. You learn there is nothing
 stopping you from using patterns in JS. No one forced us to do it this way, JS
-just made it easier to do everything bad. I learned that JS has [Good Parts](http://www.amazon.com /JavaScript-Good-Parts-Douglas-
-Crockford/dp/0596517742)
+just made it easier to do everything bad. I learned that JS has [Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
 ### I broke Ruby 
 
@@ -216,14 +216,14 @@ At first, LISP seems like bullshit, it is full of parenthesis and it feels like
 going backwards; you think: _why we are at it why don't we add back semicolons
 and brackets and hey we could explicitly declare our vars with a keyword to. I
 traded unnecessary characters for significant whitespace a long time ago, move
-on LISPers, there are modern languages out here now. You can get all the power
-of LISP without parenthesis so why bother with such ugliness if you don't have to
+on LISPers, there are modern languages now. You can get all the power of LISP
+without parenthesis so why bother with such ugliness if you don't have to
 
-I cant remember if one day I just got bored or if I built an AST but for some
-reason or another I ended up playing with LISP. See, you don't realize what you
-can do with LISP until you know what it is. When you code with LISP it is like
-building a language for your data. You code starts to speak to you and gradually
-it shows you its whole world.
+I cant remember if one day I just got bored or if I built a parser with an AST
+but for some reason or another I ended up playing with LISP. See, you don't
+realize what you can do with LISP until you know what it is. When you code with
+LISP it is like building a language for your data. You code starts to speak to
+you and gradually it shows you its whole world.
 
 Coding in LISP is a deeper connection to your code. It is abstraction but it
 doesn't feel like abstraction it feels like another language, like you are
@@ -249,8 +249,8 @@ show up not like my dad who never came back.
 
 No longer do you have to wait for things to happen, well, you have to wait, but
 your code knows how to wait, and it gets alerted to magical, wonderful things.
-Your model changes and suddenly your view changes with it. You no longer tied to
-the old way of doing things. You start giving all your code promises.
+Your model changes and suddenly your view changes with it. You are no longer
+tied to the old way of doing things. You start giving all your code promises.
 
 Promises open up a whole knew world to you but it is a whole new world you can
 quickly destroy. Because when you have 18 models and 40 views and all those
@@ -260,23 +260,23 @@ aren't such a good idea after all. Maybe you just replaced callback hell with
 another level of hell; one full of broken promises.
 
 You learn that maybe FRP isn't such a weird idea after all. You swallow the
-Reactive pill and everything changes all over again
+Reactive pill and everything changes all over again.
 
 ### I broke native
 
-Because at the time Node.js seemed like a good way to do
-everything. And if you could build apps with JS and compile them with a
-Gruntfile wouldn't that be beautiful? I know this stuff already and surely in
-this era of modern computing, performance IS not a problem. 
+Because at the time Node.js seemed like a good way to do everything. And if you
+could build apps with JS and compile them with a Gruntfile wouldn't that be
+amazing? I know this stuff already and surely in this era of modern computing,
+performance IS not a problem.
 
 At first, it is great and everything works smoothly, and you are thinking your
 apps have never been so abstracted. It is making everything so simple, so, why
 not throw on another layer of abstraction or two. 
 
 Before long you are compiling your favorite language to JS and that JS runs on a
-framework that renders to well anything, it might be canvas or WebGl or CSS,
-HTML and SVG. You tell yourself that this is wonderful. That "this makes
-everything so much more flexible". 
+framework that renders to well anything, it might be canvas or WebGl or CSS +
+HTML + SVG. You tell yourself that this is wonderful. That "this makes
+everything so much more flexible".
 
 All these abstractions get you thinking, what if the web wasn't the only
 platform and wouldn't it be easy it to swap out this layer with that layer and
@@ -309,21 +309,23 @@ Maybe they didn't share, perhaps out of embarrassment, or lack of time, or maybe
 because it just felt so obvious in hindsight. Maybe they did but you thought they
 were wrong.
 
-But you were brave. You jumped straight on and trail blazed into unknown lands.
-Sure, maybe the lands hand been blazed before and maybe the maps where full of
-markings that said "here be dragons" and warnings from locals in the tavern with
-PEG legs that said "BOY, THIS IS WHAT HAPPENS WHEN YOU PARSE HTML WITH REGEX".
+But you were brave. You jumped straight in and trail blazed into unknown lands.
+Sure, maybe the lands had been blazed before, maybe the maps where full of
+markings that said "here be dragons" and there were warnings from locals in the
+tavern with PEG legs that said "BOY, THIS IS WHAT HAPPENS WHEN YOU PARSE HTML
+WITH REGEX". 
+
 You went anyway because you had to know for yourself. You ignored the signs of
 Dragons and the warnings and went bravely. I went to learn. I went to break
 things.
 
 If you don't break things you never learn how to put them back together again.
-Most things that seem obvious cant be taught, they have to be learned.
-Of course the lessons are gonna be hard and they'll make you feel stupid ALOT. And
-honestly, I wish I had done some things differently but I wouldn't trade this
-hard earned knowledge for any quick fix, monolithic framework or perfect
-codebase in the world. Because I have to know how it works even if I break it in
-the process. If you don't ask stupid questions you'll never be able to give
-smart answers. I have to break things.
+Most things that seem obvious cant be taught, they have to be learned. Of course
+the lessons are gonna be hard and they'll make you feel stupid ALOT.  But if you
+don't ask stupid questions you'll never be able to give smart answers. I wish I
+had done some things differently but I wouldn't trade this hard earned knowledge
+for any quick fix, monolithic framework or perfect codebase in the world.
+Because I have to know how it works even if I break it in the process.  I have
+to break things.
 
 I'm still breaking things. Maybe I could break your code? [k@2052.me](mailto:k@2052.me)
