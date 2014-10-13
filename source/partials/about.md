@@ -166,7 +166,7 @@ base in a million lib/ folders. Plus, who likes semicolons and brackets. It read
 like poetry and I thought, with this, I'm gonna be more productive than ever
 before. I can generate a blog in five minutes with this thing!
 
-Then you discover that generating things have a tendency to act like generated
+Then you discover that generated things have a tendency to act like generated
 things. You have no idea how anything works but you learn that you can abstract
 not knowing anything away -- and everyone has learned this; so everything you
 use is so abstracted that you have no idea how it works and neither does anyone
