@@ -62,11 +62,10 @@ Node.js stack and be [MEAN](http://en.wikipedia.org/wiki/MEAN) to all the code.
 
 For me, the web started with PHP. With Joomla themes, WordPress blogs and
 haphazardly thrown together bespoke MVC apps because CodeIgniter seemed awesome
-but too complicated to give to a client. Before long my skills and work
-stretched across a gauntlet of PHP stuff. If you used a Joomla theme in the 1.5
-era chances are you used one with my code at some point. I haven't done any
-serious PHP work for 1.5 years but certainly wouldn't mind dusting off my skills
-for the right project.
+but too complicated to give to a client. My skills and work stretched across a
+gauntlet of PHP stuff. If you used a Joomla theme in the 1.5 era chances are you
+used one with my code at some point. I haven't done any serious PHP work for 1.5
+years but certainly wouldn't mind dusting off my skills for the right project.
 
 ### AS3 (HaXe) Game Development
 
