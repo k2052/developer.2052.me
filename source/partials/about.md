@@ -325,7 +325,7 @@ the lessons are gonna be hard and they'll make you feel stupid ALOT.  But if you
 don't ask stupid questions you'll never be able to give smart answers. I wish I
 had done some things differently but I wouldn't trade this hard earned knowledge
 for any quick fix, monolithic framework or perfect codebase in the world.
-Because I have to know how it works even if I break it in the process.  I have
-to break things.
+Because I have to know how it works even if I break it in the process. 
+I have to break things.
 
 I'm still breaking things. Maybe I could break your code? [k@2052.me](mailto:k@2052.me)
