@@ -12,7 +12,7 @@ activate :directory_indexes
 activate :cache_buster
 
 # Set Build Dir
-set :build_dir, "tmp"
+set :build_dir, "build"
 
 # Set Asset paths
 set :images_dir, 'images'
