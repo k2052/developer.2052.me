@@ -19,7 +19,7 @@ I can kick butt with a minimal framework. Sinatra, Padrino, Scorched, Grape --
 you name it, I can code diamonds with it.
 My [Github](http://github.com/k2052) is full of more padrino examples than I can count. 
 I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible). 
-I can code an API as fast as a speeding Grape, which is [one week](http://backendInaWeek.idodevstuff.me) if you were curious.
+I can code an API as fast as a speeding Grape, which is [one week](http://backendInaWeek.k2052.me) if you were curious.
 My preferred stack? API first built with Grape, a Sinatra app (for pre-loading data) on top of that,
 and then finally a frontend built using Ryggrad (sorta like Backbone.js but better).
 

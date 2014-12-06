@@ -9,6 +9,7 @@ gem "rack-contrib"
 
 # Core
 gem "middleman", "~> 3.3.6"
+gem 'middleman-gh-pages'
 
 ## Rendering
 gem 'slim'
