@@ -38,3 +38,6 @@ if ENV['RACK_ENV'] == 'production'
   end
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+end
