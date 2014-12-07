@@ -1,10 +1,8 @@
 # About
 
-I'm good at Ruby backends and CoffeScript/JS frontends. 
-I like minimal frameworks and I'm really good at [building APIs](http://backendInaWeek.idodevstuff.me). 
-I have written [tutorials](http://words.k2052.me/2014/10/08/building-apis-
-with-grape-part1) on building APIs with Grape. 
-I have written [my own CS framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) on building them. 
+I'm very good at Ruby backends and CoffeeScript/JavaScript frontends. 
+I like minimal frameworks and I'm really good at [building APIs](http://backendinaweek.k2052.me). 
+I have written [my own  CoffeeScript/JavaScript framework](http://github.com/ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) on building them. 
 I'm a polyglot and my [Github](http://github.com/k2052) is more diverse than analogies.
 I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun. 
 I know when abstraction is overkill and when it makes everything magical. 
