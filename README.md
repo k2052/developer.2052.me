@@ -1,6 +1,6 @@
 # What is this?
 
-This is the source for [developer.k2052.me](http://developer.k2052.me). It is 99% static and is built using
+This is the source for [k2052.codes](http://k2052.codes). Its 99% static and is built using
 [middleman](http://middlemanapp.com).
 
 You are free to utilize and learn from anything (Licensed under MIT). Feel free to deploy a site using
