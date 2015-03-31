@@ -20,8 +20,8 @@ you name it, I can code gems with it.
 I have more [Github](http://github.com/k2052) repos than almost anyone (200+)
 I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible).
 I can code an API as fast as a speeding Grape, which is [one week](http://backendInaWeek.k2052.me) if you were curious.
-My preferred stack? API first built with Grape, a Sinatra app (for pre-loading data) on top of that,
-and then finally a frontend built using [Ryggrad](https:/.file/github.com/ryggrad) (sorta like Backbone.js but better)
+My preferred stack? API first built with Grape, a Sinatra app (for pre-loading) on top of that --
+then finally a frontend built using [Ryggrad](https:/.file/github.com/ryggrad) (sorta like Backbone.js but better)
 
 ### CoffeeScript/JS
 
