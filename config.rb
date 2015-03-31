@@ -39,5 +39,6 @@ if ENV['RACK_ENV'] == 'production'
 end
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.method = :git
 end
