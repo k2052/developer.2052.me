@@ -1,48 +1,50 @@
 # About
 
-I'm very good at Ruby backends and CoffeeScript/JavaScript frontends. 
-I like minimal frameworks and I'm really good at [building APIs](http://backendinaweek.k2052.me). 
-I have written [my own  CoffeeScript/JavaScript framework](http://github.com/ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) on building them. 
+I'm very good at Ruby backends and CoffeeScript frontends.
+I like minimal frameworks and I'm really good at [building APIs](http://backendinaweek.k2052.me).
+I built a ruby microframework called [Eldr](https://github.com/eldr-rb/eldr).
+I wrote a book called [BuildYourOwnSinatra](https://buildYourOwnSinatra.com)
+I have built [a CoffeeScript framework](http://github.com/ryggrad) and I wrote a [book](https://leanpub.com/building-coffeescript-frameworks) on them.
 I'm a polyglot and my [Github](http://github.com/k2052) is more diverse than analogies.
-I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun. 
-I know when abstraction is overkill and when it makes everything magical. 
-I have dabbled in everything from PHP to ClojureScript. 
+I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun.
+I know when abstraction is overkill and when it makes everything magical.
+I have dabbled in everything from PHP to ClojureScript.
 Chances are if I'm not good at it now I could get good at it.
 
 ## Core Skills
 
 ### Ruby
 
-I can kick butt with a minimal framework. Sinatra, Padrino, Scorched, Grape -- 
-you name it, I can code diamonds with it.
-My [Github](http://github.com/k2052) is full of more padrino examples than I can count. 
-I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible). 
+I can kick butt with a minimal framework; Sinatra, Padrino, Scorched, Grape --
+you name it, I can code gems with it.
+I have more [Github](http://github.com/k2052) repos than almost anyone (200+)
+I have written about [building apis with Grape](http://words.k2052.me/2014/10/08/building-apis-with-grape-part1) and built [custom gems for clients](https://rubygems.org/gems/admincredible).
 I can code an API as fast as a speeding Grape, which is [one week](http://backendInaWeek.k2052.me) if you were curious.
 My preferred stack? API first built with Grape, a Sinatra app (for pre-loading data) on top of that,
-and then finally a frontend built using Ryggrad (sorta like Backbone.js but better).
+and then finally a frontend built using [Ryggrad](https:/.file/github.com/ryggrad) (sorta like Backbone.js but better)
 
 ### CoffeeScript/JS
 
 I'm really really good at Backbone.js and their ilk; I know them so well I could build them myself.  
 I have written [my own framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building it.
-I'm not stuck in the Backbone.js mindset and I spend a lot of time playing with ClojureScript and Om. 
-My dream is to build a design app that merges the web workflow with vector/raster drawing tools. 
+I'm not stuck in the Backbone.js mindset and I spend a lot of time playing with ClojureScript and Om.
+My dream is to build a design app that merges the web workflow with vector/raster drawing tools.
 It is called [Sqircle](https://github.com/sqircle)
 
 ### C
 
 A developer in any age requires a working knowledge of C. Its syntax influences
-countless languages. If you are fluent in C chances are you can pick up most
-languages. I don't do a lot of pure C coding, but building bindings, modifying
-GTK apps or fixing a bug in a library are common almost daily occurrences. Code
-as long as I have and you start to get good at C even if it isn't your GOTO language.
+countless languages. If you are fluent in C chances are you can pick up almost
+any language. I don't do a lot of pure C coding, but building bindings, modifying
+GTK apps or fixing a bug in a library are common occurrences.
+Codeas long as I have and you start to get good at C even if it isn't your GOTO language.
 
 ### LISP
 
 (I can think in parenthesis) If you know only one paradigm your code will be
 (defined by that paradigm. For years, I have been expanding my mind by playing)
 (with various incarnations of LISP and Scheme. My daily editor for a long time)
-(was Emacs and more recently it has been Light Table.) 
+(was Emacs and more recently it has been Light Table.)
 (Coding with a LISP powered editor is like coding with super powers.)
 (LISPs are magical and wonderful and they change how you think about programming.)
 (And these days with platforms like Clojure and ClojureScript they are useful in practice to.)
@@ -79,19 +81,19 @@ a pretty decent platform for building cross-platform games.
 
 ## Things I have learned but rarely use
 
-- C++ 
-- Mono 
-- Python 
-- iOS development 
-- Android Development 
-- GTK App development using Vala + Genie 
+- C++
+- Mono
+- Python
+- iOS development
+- Android Development
+- GTK App development using Vala + Genie
 - App development using PhoneGap
 
 ## Things I really like but I'm not very good at yet
 
-- Clojure + ClojureScript 
-- Nimrod 
-- Haskell 
+- Clojure + ClojureScript
+- Nimrod
+- Haskell
 - Rust
 
 ## History
@@ -141,11 +143,11 @@ calls over 2 lines of changes to CSS that really doesn't matter when the site is
 exploding to live users. I learned to love semantic versioning, production branches,
 milestones and Basecamps.
 
-### I broke JS 
+### I broke JS
 
 I knew at the time that I didn't really know JS, but JS seems simple when you
 have a 190k library that can do everything in a DOM ready event. You think,
-maybe I could everything in a DOM ready event and for awhile I did. 
+maybe I could everything in a DOM ready event and for awhile I did.
 
 Let's load everything in AJAX because we can. Now all the urls are broken and no
 one can change anything because everything is 9k lines wrapped in a DOM ready
@@ -155,7 +157,7 @@ Is this what JS is? Because I think JS is hell. You learn there is nothing
 stopping you from using patterns in JS. No one forced us to do it this way, JS
 just made it easier to do everything bad. I learned that JS has [Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742)
 
-### I broke Ruby 
+### I broke Ruby
 
 I discovered there was a better language. It looked clean, flexible, and
 adaptive. Dependencies were managed elegantly and not included across your code
@@ -195,7 +197,7 @@ extensions, plugins and themes, and getting the sidebar just right. It is
 easy to forget about your code when your editor is so amazing.
 
 You learn that the environment isn't that big of a deal and if a bunch of people
-use it perhaps it is okay. 
+use it perhaps it is okay.
 
 These days you could be productive in Notepad if it came to that. Except for
 Eclipse, no one can be productive in that but that is because Eclipse is a
@@ -210,7 +212,7 @@ that you don't. You think you know programming until you learn a LISP and
 then, well, everything changes...
 
 At first, LISP seems like bullshit, it is full of parenthesis and it feels like
-going backwards; you think: _why we are at it why don't we add back semicolons
+going backwards; you think: \_why we are at it why don't we add back semicolons
 and brackets and hey we could explicitly declare our vars with a keyword to. I
 traded unnecessary characters for significant whitespace a long time ago, move
 on LISPers, there are modern languages now. You can get all the power of LISP
@@ -224,7 +226,7 @@ you and gradually it shows you its whole world.
 
 Coding in LISP is a deeper connection to your code. It is abstraction but it
 doesn't feel like abstraction it feels like another language, like you are
-speaking code with the fluency Shakespeare spoke English. 
+speaking code with the fluency Shakespeare spoke English.
 
 NO. It is still abstraction. You realize this when you try to read someone
 else's LISP and it sounds like they wrote with a LISP (Until you get to know
@@ -238,7 +240,7 @@ sometimes expressiveness is the enemy of conciseness.
 
 But I still cant help but wonder, does God think in parenthesis?
 
-### I broke promises 
+### I broke promises
 
 Promises are wonderful. They allow you to connect everything together without
 worrying whether or not the data will come through for you. It will eventually
@@ -268,7 +270,7 @@ performance IS not a problem.
 
 At first, it is great and everything works smoothly, and you are thinking your
 apps have never been so abstracted. It is making everything so simple, so, why
-not throw on another layer of abstraction or two. 
+not throw on another layer of abstraction or two.
 
 Before long you are compiling your favorite language to JS and that JS runs on a
 framework that renders to well anything, it might be canvas or WebGl or CSS +
@@ -298,7 +300,7 @@ wants a mobile app written for the web.
 It is so tempting to misuse a technology. To dive head first into new territory
 shouting "I got this! React.js is gonna change everything!". Because it is so
 easy to wonder "why did no one think of this before?" and then to think it was
-because they were stupid. 
+because they were stupid.
 
 Nothing is ever so simple and chances are someone smarter than you thought
 of it before. Chances are they tried it and chances are it broke everything.
@@ -310,7 +312,7 @@ But you were brave. You jumped straight in and trail blazed into unknown lands.
 Sure, maybe the lands had been blazed before, maybe the maps where full of
 markings that said "here be dragons" and there were warnings from locals in the
 tavern with PEG legs that said "BOY, THIS IS WHAT HAPPENS WHEN YOU PARSE HTML
-WITH REGEX". 
+WITH REGEX".
 
 You went anyway because you had to know for yourself. You ignored the signs of
 Dragons and the warnings and went bravely. I went to learn. I went to break
@@ -322,7 +324,7 @@ the lessons are gonna be hard and they'll make you feel stupid ALOT.  But if you
 don't ask stupid questions you'll never be able to give smart answers. I wish I
 had done some things differently but I wouldn't trade this hard earned knowledge
 for any quick fix, monolithic framework or perfect codebase in the world.
-Because I have to know how it works even if I break it in the process. 
+Because I have to know how it works even if I break it in the process.
 I have to break things.
 
 I'm still breaking things. Maybe I could break your code? [k@2052.me](mailto:k@2052.me)
