@@ -1,10 +1,11 @@
 # About
 
-I'm very good at Ruby backends and CoffeeScript frontends.
+I'm very good at Ruby backends, React/Redux frontends, and node.js backends.
 I like minimal frameworks and I'm really good at [building APIs](http://backendinaweek.k2052.me).
 I built a ruby microframework called [Eldr](https://github.com/eldr-rb/eldr).
-I wrote a book called [BuildYourOwnSinatra](https://buildYourOwnSinatra.com)
+I wrote a book called [BuildYourOwnSinatra](https://buildYourOwnSinatra.com).
 I have built [a CoffeeScript framework](http://github.com/ryggrad) and I wrote a [book](https://leanpub.com/building-coffeescript-frameworks) on them.
+I can [Think In React](http://ThinkingInReact.xyz), Redux, and ES6.
 I'm a polyglot and my [Github](http://github.com/k2052) is more diverse than analogies.
 I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun.
 I know when abstraction is overkill and when it makes everything magical.
@@ -26,8 +27,9 @@ then finally a frontend built using [Ryggrad](https:/.file/github.com/ryggrad) (
 ### CoffeeScript/JS
 
 I'm really really good at Backbone.js and their ilk; I know them so well I could build them myself.  
-I have written [my own framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building it.
-I spend a lot of time playing with ClojureScript and Om.
+In the past I wrote [my own backbone style framework](http://github.com/Ryggrad) and a [book](https://leanpub.com/building-coffeescript-frameworks) about building it.
+I spend a lot of time playing with futuristic tech like re-frame, Om Next, PureScript, Elm etc but day to day I'm a React/Redux/JS human.
+I'm just as comfortable in the browser as I am on the backend.
 My dream is to build a design app that merges the web workflow with vector/raster drawing tools.
 It is called [Sqircle](https://github.com/sqircle)
 
