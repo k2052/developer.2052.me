@@ -333,7 +333,7 @@ kbd.light, .light-keys kbd, .key.light, .light-keys .key {
   .logo {
     width: 377px;
     height: 263px;
-    background: url("/images/logo@2x.png"); } }
+    background: url("/images/logo@2x.png?1452545448"); } }
 /**
  * Prism.js theme based on the Tommorrow theme by Rose Pritchard
  */
