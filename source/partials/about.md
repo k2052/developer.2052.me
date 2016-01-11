@@ -6,7 +6,7 @@ I built a ruby microframework called [Eldr](https://github.com/eldr-rb/eldr).
 I wrote a book called [BuildYourOwnSinatra](https://buildYourOwnSinatra.com).
 I have built [a CoffeeScript framework](http://github.com/ryggrad) and I wrote a [book](https://leanpub.com/building-coffeescript-frameworks) on them.
 I can [Think In React](http://ThinkingInReact.xyz), Redux, and ES6.
-I'm a polyglot and my [Github](http://github.com/k2052) is more diverse than analogies.
+I'm a polyglot and my [GitHub](http://github.com/k2052) is more diverse than analogies.
 I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) and I know every pattern under the sun.
 I know when abstraction is overkill and when it makes everything magical.
 I have dabbled in everything from PHP to ClojureScript.
