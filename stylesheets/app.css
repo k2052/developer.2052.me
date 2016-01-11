@@ -1,0 +1,679 @@
+@charset "UTF-8";
+/* line 1, /Users/k2052/github/k2052/k2052.codes/bower_components/prism/plugins/line-numbers/prism-line-numbers.css */
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber; }
+
+/* line 7, /Users/k2052/github/k2052/k2052.codes/bower_components/prism/plugins/line-numbers/prism-line-numbers.css */
+pre.line-numbers > code {
+  position: relative; }
+
+/* line 11, /Users/k2052/github/k2052/k2052.codes/bower_components/prism/plugins/line-numbers/prism-line-numbers.css */
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em;
+  /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 28, /Users/k2052/github/k2052/k2052.codes/bower_components/prism/plugins/line-numbers/prism-line-numbers.css */
+.line-numbers-rows > span {
+  pointer-events: none;
+  display: block;
+  counter-increment: linenumber; }
+
+/* line 34, /Users/k2052/github/k2052/k2052.codes/bower_components/prism/plugins/line-numbers/prism-line-numbers.css */
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("/fonts/fontello.eot?55494034");
+  src: url("/fonts/fontello.eot?55494034#iefix") format("embedded-opentype"), url("/fonts/fontello.woff?55494034") format("woff"), url("/fonts/fontello.ttf?55494034") format("truetype"), url("/fonts/fontello.svg?55494034#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?55494034#fontello') format('svg');
+  }
+}
+*/
+/* line 22, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before, [class^="icon-"], [class*=" icon-"] {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 53, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-github:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 54, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-twitter:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 55, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-mail:before {
+  content: '\e803'; }
+
+/* '' */
+/* line 57, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-angle-down:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 58, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-github-squared:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 59, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-twitter-squared:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 60, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-mail-squared:before {
+  content: '\e803'; }
+
+/* '' */
+/* line 61, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_fontello.scss */
+.icon-vcard:before {
+  content: '\e804'; }
+
+/* '' */
+/* line 7, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+html {
+  box-sizing: border-box; }
+
+/* line 10, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 13, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+html {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: Lato, sans-serif;
+  color: #222;
+  white-space: 22px;
+  background-color: #ecedee;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzljOWNhNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QwYzFiOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #9c9ca5), color-stop(100%, #d0c1b9));
+  background: -moz-linear-gradient(left top, #9c9ca5, #d0c1b9);
+  background: -webkit-linear-gradient(left top, #9c9ca5, #d0c1b9);
+  background: linear-gradient(to right bottom, #9c9ca5, #d0c1b9);
+  background-repeat: no-repeat; }
+
+/* line 24, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+body {
+  font-size: 100%; }
+
+/* line 27, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+p {
+  margin: 26px 0; }
+
+/* line 30, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+a {
+  font-family: Lato, sans-serif;
+  color: #760f0f;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
+  font-weight: 300;
+  outline: 0; }
+  /* line 37, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+  a:hover, a:focus {
+    color: #4a5154;
+    text-decoration: none; }
+
+/* line 42, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h1, h2, h3, h4, h5, h6 {
+  color: #29292e;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: Lato, sans-serif; }
+
+/* line 49, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h1 {
+  color: #222;
+  text-align: center;
+  font-size: 2.72727rem;
+  font-weight: 900; }
+
+/* line 55, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h2 {
+  font-size: 1.36364rem;
+  font-weight: 700; }
+
+/* line 59, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h3 {
+  font-size: 1.09091rem; }
+
+/* line 62, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h4 {
+  font-size: 1rem; }
+
+/* line 65, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h5 {
+  font-size: 0.81818rem; }
+
+/* line 68, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+h6 {
+  font-size: 0.63636rem; }
+
+/* line 71, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+hr {
+  height: 1px;
+  background: #e0e0e0;
+  border: 0; }
+
+/* line 76, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+blockquote {
+  border-left: 5px solid #cccccc;
+  margin-left: 0;
+  padding: 1px 0 1px 1em; }
+
+/* line 81, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+blockquote p {
+  font-family: Inconsolata, "Ubuntu Mono", Menlo, Consolas, Monaco, monospace;
+  font-size: rem(14px)/22pxrem;
+  color: #999999;
+  margin: 10px 0 0;
+  white-space: pre-wrap; }
+
+/* line 88, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+pre, code {
+  font-family: Inconsolata, "Ubuntu Mono", Menlo, Consolas, Monaco, monospace;
+  font-size: rem(16px);
+  overflow: auto;
+  line-height: 1.8; }
+
+/* line 94, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+b, strong {
+  font-weight: 400; }
+
+/* line 97, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/core/_base.sass */
+em {
+  font-style: italic; }
+
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_editor.sass */
+.editor-panes {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/* line 8, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_editor.sass */
+.main-pane {
+  width: 75%; }
+
+/* line 11, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_editor.sass */
+.editor {
+  font-family: Inconsolata;
+  background-color: #2e3239;
+  overflow: hidden; }
+  /* line 16, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_editor.sass */
+  .editor pre, .editor code {
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word; }
+
+/**
+ * KEYS.css
+ *
+ * A simple stylesheet for rendering beautiful keyboard-style elements.
+ *
+ * Author:  Michael Hüneburg
+ * Website: http://michaelhue.com/keyscss
+ * License: MIT License
+ */
+/* Base style, essential for every key. */
+/* line 13, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_keys.sass */
+kbd, .key {
+  display: inline;
+  display: inline-block;
+  min-width: 1em;
+  padding: 0.2em 0.3em;
+  font: normal 0.85em/1 "Lucida Grande", Lucida, Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: none;
+  cursor: default;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+
+/* line 30, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_keys.sass */
+kbd[title], .key[title] {
+  cursor: help; }
+
+/* Dark style for display on light background. This is the default style. */
+/* line 34, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_keys.sass */
+kbd, kbd.dark, .dark-keys kbd, .key, .key.dark, .dark-keys .key {
+  background: #505050;
+  background: -moz-linear-gradient(top, #3c3c3c, #505050);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#505050));
+  color: #fafafa;
+  text-shadow: -1px -1px 0 #464646;
+  -moz-box-shadow: inset 0 0 1px #969696, inset 0 -0.05em 0.4em #505050, 0 0.1em 0 #1e1e1e, 0 0.1em 0.1em rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 1px #969696, inset 0 -0.05em 0.4em #505050, 0 0.1em 0 #1e1e1e, 0 0.1em 0.1em rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 1px #969696, inset 0 -0.05em 0.4em #505050, 0 0.1em 0 #1e1e1e, 0 0.1em 0.1em rgba(0, 0, 0, 0.3); }
+
+/* Light style for display on dark background. */
+/* line 45, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_keys.sass */
+kbd.light, .light-keys kbd, .key.light, .light-keys .key {
+  background: #fafafa;
+  background: -moz-linear-gradient(top, #d2d2d2, white);
+  background: -webkit-gradient(linear, left top, left bottom, from(#d2d2d2), to(white));
+  color: #323232;
+  text-shadow: 0 0 2px white;
+  -moz-box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0 0 1px white, inset 0 0 0.4em #c8c8c8, 0 0.1em 0 #828282, 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9); }
+
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_logo.sass */
+.logo {
+  display: block;
+  width: 189px;
+  height: 132px;
+  background: url("/images/logo.png?v2");
+  text-indent: -9999px;
+  margin: 32px auto 32px auto; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 10, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_logo.sass */
+  .logo {
+    width: 377px;
+    height: 263px;
+    background: url("/images/logo@2x.png"); } }
+/**
+ * Prism.js theme based on the Tommorrow theme by Rose Pritchard
+ */
+/* line 6, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+code[class*="language-"], pre[class*="language-"] {
+  color: #cccccc;
+  direction: ltr;
+  text-align: left;
+  line-height: 27px; }
+
+/* line 13, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+pre[class*="language-"] {
+  padding: 0.6em 1em 0.6em 1em; }
+
+/* Code blocks */
+/* line 17, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+pre.line-numbers[class*="language-"] {
+  padding: 0.6em 4em 1.7em 4em;
+  margin: 0; }
+
+/* line 21, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  color: #cccccc; }
+
+/* Inline code */
+/* line 25, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+:not(pre) > code[class*="language-"] {
+  padding: 0.2em;
+  border-radus: 0.3em; }
+
+/* line 29, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #999; }
+
+/* line 36, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.punctuation {
+  color: #ccc; }
+
+/* line 39, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.tag,
+.token.attr-name,
+.token.namespace {
+  color: #e2777a; }
+
+/* line 44, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.function-name {
+  color: #6196cc; }
+
+/* line 47, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.boolean,
+.token.number,
+.token.function,
+.token.bullet {
+  color: #f08d49; }
+
+/* line 53, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol,
+.token.em {
+  color: #f8c555; }
+
+/* line 60, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin,
+.token.header {
+  color: #cc99cd; }
+
+/* line 68, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.string,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #7ec699; }
+
+/* line 74, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.operator,
+.token.entity,
+.token.url,
+.token.link,
+.token.md-link,
+code a {
+  color: #67cdcc; }
+
+/* line 82, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.important {
+  font-weight: bold; }
+
+/* line 85, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.token.entity {
+  cursor: help; }
+
+/* line 88, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.line-numbers .line-numbers-rows {
+  top: -0.9em;
+  left: -4em;
+  overflow-y: hidden;
+  line-height: 27px;
+  background: #292d33;
+  border-right: none; }
+  /* line 96, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+  .line-numbers .line-numbers-rows :first-child {
+    padding-top: 0.6em; }
+  /* line 99, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+  .line-numbers .line-numbers-rows :last-child {
+    padding-bottom: 1em; }
+
+/* line 102, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+.line-numbers-rows {
+  padding-bottom: 2px; }
+
+/* line 105, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_prism-theme.sass */
+code a {
+  font-family: Inconsolata, "Ubuntu Mono", Menlo, Consolas, Monaco, monospace !important;
+  font-size: rem(16px) !important;
+  text-decoration: underline;
+  line-height: 27px;
+  font-weight: normal; }
+
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+.sidebar {
+  color: #989fa4;
+  font-size: 0.54545rem;
+  box-shadow: inset -1px 0px rgba(0, 0, 0, 0.03);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4MmIzMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFmMjEyNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #282b30), color-stop(100%, #1f2125));
+  background: -moz-linear-gradient(#282b30, #1f2125);
+  background: -webkit-linear-gradient(#282b30, #1f2125);
+  background: linear-gradient(#282b30, #1f2125);
+  width: 25%; }
+  /* line 8, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar .inner {
+    padding: 0 28px 0 28px;
+    line-height: 34px;
+    font-size: 0.63636rem; }
+  /* line 13, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar .text {
+    margin-left: 5px; }
+  /* line 16, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar [class^="icon-"]:before {
+    margin-left: 0; }
+  /* line 19, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar [class^="icon-"] {
+    margin-left: 0px; }
+  /* line 22, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar [class^="icon-"], .sidebar h2 {
+    color: #a6e22e; }
+  /* line 25, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar a {
+    color: #989fa4; }
+  /* line 28, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar a:hover {
+    text-decoration: underline; }
+  /* line 31, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar h2 {
+    font-size: 0.54545rem;
+    margin: 15px 0 8px 0;
+    line-height: 1.5; }
+  /* line 36, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar p {
+    margin: 0;
+    line-height: 1.8; }
+  /* line 40, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar ul, .sidebar li {
+    padding: 0;
+    margin: 0;
+    list-style-image: none;
+    list-style-type: none; }
+  /* line 48, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar .contact-details .icon-angle-down {
+    position: relative;
+    top: 13px;
+    font-size: 0.54545rem; }
+  /* line 53, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar .contact-details .header {
+    margin-top: 0px;
+    color: #ced2d4;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    padding-left: 8px;
+    height: 45px;
+    background: #1e2126; }
+    /* line 62, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+    .sidebar .contact-details .header h2 {
+      display: inline;
+      padding-left: 0px;
+      top: 14px;
+      position: relative; }
+
+/* line 68, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+.small {
+  display: none; }
+
+@media (max-width: 950px) {
+  /* line 72, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .big {
+    display: none; }
+
+  /* line 75, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .small {
+    display: block; } }
+@media (max-width: 630px) {
+  /* line 80, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar .inner {
+    font-size: 0.59091rem;
+    line-height: 30px; }
+  /* line 84, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_sidebar.sass */
+  .sidebar h2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; } }
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+.status-bar {
+  color: #7d868c;
+  text-shadow: none;
+  position: relative;
+  background-color: #25282e;
+  width: 100%;
+  padding: 4px; }
+  /* line 9, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+  .status-bar ul, .status-bar li {
+    padding: 0;
+    margin: 0;
+    list-style-image: none;
+    list-style-type: none; }
+  /* line 15, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+  .status-bar .right {
+    text-align: right; }
+  /* line 18, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+  .status-bar .icon-mail {
+    color: #66d9ef;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+    font-size: 0.72727rem; }
+  /* line 25, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+  .status-bar a {
+    color: #ced2d4;
+    margin-right: 15px;
+    font-size: 0.63636rem; }
+  /* line 30, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_status-bar.sass */
+  .status-bar a:hover {
+    color: white; }
+
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_tab-bar.sass */
+.tab-bar {
+  width: 100%;
+  background: #1e2126;
+  color: #989fa4;
+  height: 45px;
+  font-size: 0.54545rem; }
+  /* line 8, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_tab-bar.sass */
+  .tab-bar ul, .tab-bar li {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+    list-style-type: none; }
+  /* line 14, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_tab-bar.sass */
+  .tab-bar .tab {
+    background: #2e3239;
+    height: 45px;
+    line-height: 45px;
+    color: #ced2d4;
+    padding-left: 12px;
+    padding-right: 18px;
+    float: left; }
+
+/* line 1, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+.window {
+  background: #eee8ea;
+  border-radius: 3px;
+  width: 98%;
+  margin: 0 auto 0;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin-bottom: 0px;
+  font-size: 0.72727rem;
+  font-family: Inconsolata; }
+  /* line 12, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+  .window .title-bar {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZjhmOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QzZDNkMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d3d3d3));
+    background-image: -moz-linear-gradient(#f8f8f8, #d3d3d3);
+    background-image: -webkit-linear-gradient(#f8f8f8, #d3d3d3);
+    background-image: linear-gradient(#f8f8f8, #d3d3d3);
+    -moz-border-radius-topleft: 0.25em;
+    -webkit-border-top-left-radius: 0.25em;
+    border-top-left-radius: 0.25em;
+    -moz-border-radius-topright: 0.25em;
+    -webkit-border-top-right-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    padding: 0.5em 0.5em 0 0.5em;
+    border: 0.0625em solid #b2b2b2;
+    position: relative;
+    text-align: center;
+    font-size: 0.54545rem;
+    height: 35px;
+    color: #333;
+    text-shadow: 0.0625em 0.0625em 0.0625em #fff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; }
+  /* line 29, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+  .window .control {
+    float: left;
+    top: 2px;
+    position: relative;
+    margin-left: 8px; }
+    /* line 35, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+    .window .control ul {
+      padding: 0;
+      margin: 0; }
+      /* line 39, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+      .window .control ul li {
+        cursor: pointer;
+        border-radius: 100%;
+        height: 10px;
+        width: 10px;
+        background: #f25156;
+        display: inline-block;
+        margin-right: 3px;
+        padding: 0; }
+        /* line 49, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+        .window .control ul li:nth-of-type(2) {
+          background: #ffc109; }
+        /* line 52, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+        .window .control ul li:nth-of-type(3) {
+          background: #0ed439; }
+
+@media (max-width: 800px) {
+  /* line 57, /Users/k2052/github/k2052/k2052.codes/source/stylesheets/modules/_window.sass */
+  .window .title-bar {
+    font-size: 0.45455rem; } }
